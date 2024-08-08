@@ -8,6 +8,7 @@ function App() {
      <h2>Collaborators List </h2>
      <ul>
      <li>Steph</li>
+     <li>Dayo</li>
 
      <li>Chioma</li>
 
