@@ -9,6 +9,9 @@ function App() {
      <ul>
      <li>Steph</li>
      <li>Dayo</li>
+
+     <li>Chioma</li>
+
      <li></li>
      <li></li>
      <li></li>
