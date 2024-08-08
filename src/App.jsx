@@ -9,7 +9,7 @@ function App() {
      <ul>
      <li>Matic</li>
      <li>Dayo</li>
-    <li>Ganiyat</li>
+     <li>Maureen</li>
      <li>Chioma</li>
     <li>Maureen</li>
      <li>Steph</li>
