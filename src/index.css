@@ -1,68 +1,160 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+:root{
+  /* Colors */
+  --clr-red: hsl(7, 99%, 70%);
+  --clr-yellow: hsl(51, 100%, 49%);
+  --clr-cyan: hsl(167, 40%, 24%);
+  --clr-dark-blue: hsl(198, 62%, 26%);
+  --clr-cyan-footer: hsl(168, 34%, 41%);
+  --clr-desaturated-blue: hsl(212, 27%, 19%);
+  --clr-very-grayish-blue: hsl(213, 9%, 39%);
+  --clr-dark-graysish-blue:  hsl(232, 10%, 55%);
+  --clr-grayish-blue: hsl(210, 4%, 67%);
+  --clr-white: 0, 0%, 100%;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* Font Family */
+--ff-primary: 
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* Font weights */
+  --fw-400: 400;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-900: 900;
+
+  /* Font Sizes */
+  --fs-900: 1.125rem
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
-a:hover {
-  color: #535bf2;
-}
-
-body {
+ /* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  font-weight: normal;
+}
+ /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+ /* Set core body defaults */
+body {
   min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+ /* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+ /* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+ /* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+ /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+body {
+  min-height: 100vh;
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-400);
+}
+.uppercase{
+  text-transform: uppercase;
+}
+ /* utilities */
+.flex {
+  display: flex;
+  gap:1rem;
+}
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+.bg-red{
+  background-color: var(--clr-red);
+}
+.bg-yellow{
+  background-color: var(--clr-yellow);
+}
+.bg-dark-blue{
+  background-color: var(--clr-dark-blue);
+}
+.bg-cyan-footer{
+  background-color: var(--clr-cyan-footer);
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.bg-white{
+  background-color: hsla(var(--clr-white));
 }
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+.text-red{
+  color: var(--clr-red);
 }
-button:hover {
-  border-color: #646cff;
+.text-yellow{
+  color: var(--clr-yellow);
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.text-cyan{
+  color: var(--clr-cyan);
 }
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.text-dark-blue{
+  color: var(--clr-dark-blue);
+}
+.text-cyan-footer{
+  color: var(--clr-cyan-footer);
+}
+.text-desaturated-blue{
+  color: var(--clr-desaturated-blue);
+}
+.text-grayish-blue{
+  color: var(--clr-grayish-blue);
+}
+.text-white{
+  color: var(--clr-white);
+}
+.fw-600{
+  font-weight: var(--fw-600);
+}
+.fw-700{
+  font-weight: var(--fw-700);
+}
+.fw-900{
+  font-weight: var(--fw-900);
+}
+.fs-900{
+  font-size: var(--fs-900);
 }
