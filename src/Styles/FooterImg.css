@@ -1,0 +1,16 @@
+.images{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    align-items: center;
+    
+}
+@media (max-width:678px){
+    .images{
+        display: grid;
+        width: 100%;
+       grid-template-columns: 1fr 1fr;
+        
+       
+    }
+}
