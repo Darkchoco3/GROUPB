@@ -10,9 +10,10 @@ function App() {
   return (
     <>
       <Hero />
+      <Testimonial />
      <FooterImg/>
      <Footer/>
-     <Testimonial />
+     
     </>
   );
 }
