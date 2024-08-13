@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+
+.general{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.pic{
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    margin-left: 44%;
+}
+
+.text{
+    text-align: center;
+    font-size: 1rem;
+    padding: 7%;
+    font-family: 'Barlow';
+    color: rgba(101, 93, 93, 0.938);
+}
+
+.btext{
+    text-align: center;
+    font-size: 10px;
+    padding: 1.1%;
+    margin-bottom: 40%;
+    margin-right: 4%;
+    font-size: 0.9rem;
+    color: rgba(101, 93, 93, 0.938);
+}
+
+.ntext{
+    text-align: center;
+    font-family: 'Barlow,cursive';
+    color: black;
+    font-weight: 900;
+    margin-right: 4%;
+}
+
+h3{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-family: 'Fraunces,cursive' ;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color:  rgba(101, 93, 93, 0.938);
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
