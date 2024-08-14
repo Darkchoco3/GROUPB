@@ -1,0 +1,137 @@
+.container{
+    width: min(100%, 80rem);
+    margin-inline: auto;
+}
+.graphic-design{
+    background: url(../assets/images/mobile/image-graphic-design.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: clamp(50vh, 80vh, 100vh);
+    position: relative;
+}
+.photography{
+    background: url(../assets/images/mobile/image-photography.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: clamp(50vh, 80vh, 100vh);
+    position: relative;
+}
+.graphic-design-text, .photography-text{
+    position: absolute;
+    top: 65%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: var(--fw-900);
+}
+.graphic-design-text h4{
+    font-family: Fraunces, 'sans-serif';
+    color: var(--clr-cyan);
+    font-size: 2rem;
+    font-weight: var(--fw-900);
+}
+.graphic-design-text p{
+    font-family: Barlow, 'sans-serif';
+    max-width: 45ch;
+    color: var(--clr-cyan);
+    font-size: 1.04rem;
+    font-weight: var(--fw-900);
+}
+.photography-text h4{
+    font-family: Fraunces, 'sans-serif';
+    color: var(--clr-dark-blue);
+    font-size: 2rem;
+    font-weight: var(--fw-900);
+}
+.photography-text p{
+    font-family: Barlow, 'sans-serif';
+    max-width: 45ch;
+    font-size: 1.04rem;
+    color: var(--clr-dark-blue);
+    font-weight: var(--fw-900);
+}
+@media screen and (min-width: 34em){
+    .graphic-design-text,.photography-text {
+        position: absolute;
+        top: 68%;
+        left: 38%;
+        transform: translate(-30%);
+        display: grid;
+        place-items: center;
+        text-align: center;
+        gap: 1rem;
+        font-weight: var(--fw-900);
+    }
+    .graphic-design-text h4{
+        font-family: Fraunces, 'sans-serif';
+        color: var(--clr-cyan);
+    }
+    .graphic-design-text p{
+        font-family: Barlow, 'sans-serif';
+        color: var(--clr-cyan);
+        font-size: 1.1rem;
+    }
+    .photography-text h4{
+        font-family: Fraunces, 'sans-serif';
+        color: var(--clr-dark-blue);
+    }
+    .photography-text p{
+        font-family: Barlow, 'sans-serif';
+        color: var(--clr-dark-blue);
+        font-size: 1.1rem;
+    }
+}
+@media screen and (min-width: 54em){
+    .graphic-design{
+        background: url(../assets/images/desktop/image-graphic-design.jpg) no-repeat;
+        background-size: cover;
+        background-position: top center;
+        height: 90vh;
+        position: relative;
+    }
+    .photography{
+        background: url(../assets/images/desktop/image-photography.jpg) no-repeat;
+        background-size: cover;
+        background-position:top center;
+        height: 90vh;
+        position: relative;
+    }
+    .features-flex{
+        display: flex;
+    }
+    .features-flex > *{
+        flex: 1;
+    }
+    .graphic-design-text,.photography-text {
+        position: absolute;
+        top: 58%;
+        left: 38%;
+        transform: translate(-30%);
+        display: grid;
+        place-items: center;
+        text-align: center;
+        gap: 1rem;
+        font-weight: var(--fw-900);
+    }
+    .graphic-design-text h4{
+        font-family: Fraunces, 'sans-serif';
+        color: var(--clr-cyan);
+    }
+    .graphic-design-text p{
+        font-family: Barlow, 'sans-serif';
+        color: var(--clr-cyan);
+        font-size: 1.1rem;
+    }
+    .photography-text h4{
+        font-family: Fraunces, 'sans-serif';
+        color: var(--clr-dark-blue);
+    }
+    .photography-text p{
+        font-family: Barlow, 'sans-serif';
+        color: var(--clr-dark-blue);
+        font-size: 1.1rem;
+    }
+    
+}

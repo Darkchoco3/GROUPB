@@ -1,0 +1,128 @@
+.section-grid{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-areas:
+        "two"
+        "one"
+        "three"
+        "four";
+}
+.services:nth-child(1){
+    grid-area: one;
+    background-color: hsl(var(--clr-white));
+}
+.services:nth-child(2){
+    grid-area: two;
+    
+}
+.services:nth-child(3){
+    grid-area: three;
+}
+.services:nth-child(4){
+    grid-area: four;
+    background-color: hsl(var(--clr-white));   
+}
+.section-one, .section-four{
+    display: grid;
+    gap: 2rem;
+    place-items: center;
+    text-align: center;
+    padding: 3.5rem 2rem;
+}
+.section-one h2, .section-four h2{
+    font-family: Fraunces, 'sans-serif';
+    color: var(--clr-desaturated-blue);
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: var(--fw-900);
+}
+.section-one p, .section-four p{
+    font-family: Barlow, 'sans-serif';
+    font-size: var(--fs-900);
+    max-width: 33ch;
+    color: var(--clr-dark-graysish-blue);
+    font-weight: var(--fw-600);
+}
+.section-one a,.section-four a{
+    text-decoration: none;
+    font-family: Fraunces, 'sans-serif';
+    color: var(--clr-desaturated-blue);
+    font-size: 1.1rem;
+    font-weight: var(--fw-900);
+    position: relative;
+    cursor: pointer;
+}
+.section-one a::after{
+    content: '';
+    width: 9rem;
+    height: .7rem;
+    border-radius: 3rem;
+    position: absolute;
+    top: 1.15rem;
+    left: -.5rem;
+    background-color: hsla(51, 100%, 49%, .35);
+    transition: hover 500ms ease-in;
+}
+.section-one a:hover::after,
+.section-one a:focus::after{
+    content: '';
+    background-color:hsla(51, 100%, 49%, 1);
+}
+.section-four a::after{
+    content: '';
+    width: 9rem;
+    height: .7rem;
+    border-radius: 3rem;
+    position: absolute;
+    top: 1.15rem;
+    left: -.5rem;
+    background-color: hsla(7, 99%, 70%, .35);
+    transition: hover 500ms ease-in;
+}
+.section-four a:hover::after,
+.section-four a:focus::after{
+    content: '';
+    background-color:hsla(7, 99%, 70%, 1);
+}
+@media screen and (min-width: 33em) {
+    .section-grid{
+        grid-template-areas:
+            "one two"
+            "three four";
+    }
+}
+@media screen and (min-width: 34em) {
+    .section-grid{
+        grid-template-areas:
+           "one one"
+            "two three"
+            "four four";
+    }
+}
+@media screen and (min-width: 54em){
+    .section-grid{
+        grid-template-areas:
+            "one two"
+            "three four";
+    }
+    .section-one, .section-four{
+        display: grid;
+        gap: 1rem;
+        place-items: start;
+        text-align: start;
+        padding: 5.5rem;
+    }
+    .section-one h2, .section-four h2{
+        font-size: 2.6rem;
+    }
+    .section-one p, .section-four p{
+        max-width: 50ch;
+    }
+}
+@media screen and (min-width: 74em){
+    .section-grid{
+        grid-template-areas:
+            "one two"
+            "three four";
+    }
+}
