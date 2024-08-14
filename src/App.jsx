@@ -10,8 +10,8 @@ import Testimonial from './Components/testimonial'
 function App() {
   return (
     <>
-      <ContentSection/>
       <Hero />
+      <ContentSection/>
       <Testimonial />
      <FooterImg/>
      <Footer/>
