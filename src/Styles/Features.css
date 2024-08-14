@@ -37,20 +37,15 @@
     max-width: 45ch;
     color: var(--clr-cyan);
     font-size: 1.04rem;
-    font-weight: var(--fw-900);
 }
 .photography-text h4{
     font-family: Fraunces, 'sans-serif';
-    color: var(--clr-dark-blue);
     font-size: 2rem;
-    font-weight: var(--fw-900);
 }
 .photography-text p{
     font-family: Barlow, 'sans-serif';
     max-width: 45ch;
     font-size: 1.04rem;
-    color: var(--clr-dark-blue);
-    font-weight: var(--fw-900);
 }
 @media screen and (min-width: 34em){
     .graphic-design-text,.photography-text {
@@ -62,24 +57,19 @@
         place-items: center;
         text-align: center;
         gap: 1rem;
-        font-weight: var(--fw-900);
     }
     .graphic-design-text h4{
         font-family: Fraunces, 'sans-serif';
-        color: var(--clr-cyan);
     }
     .graphic-design-text p{
         font-family: Barlow, 'sans-serif';
-        color: var(--clr-cyan);
         font-size: 1.1rem;
     }
     .photography-text h4{
         font-family: Fraunces, 'sans-serif';
-        color: var(--clr-dark-blue);
     }
     .photography-text p{
         font-family: Barlow, 'sans-serif';
-        color: var(--clr-dark-blue);
         font-size: 1.1rem;
     }
 }
@@ -113,24 +103,19 @@
         place-items: center;
         text-align: center;
         gap: 1rem;
-        font-weight: var(--fw-900);
     }
     .graphic-design-text h4{
         font-family: Fraunces, 'sans-serif';
-        color: var(--clr-cyan);
     }
     .graphic-design-text p{
         font-family: Barlow, 'sans-serif';
-        color: var(--clr-cyan);
         font-size: 1.1rem;
     }
     .photography-text h4{
         font-family: Fraunces, 'sans-serif';
-        color: var(--clr-dark-blue);
     }
     .photography-text p{
         font-family: Barlow, 'sans-serif';
-        color: var(--clr-dark-blue);
         font-size: 1.1rem;
     }
     

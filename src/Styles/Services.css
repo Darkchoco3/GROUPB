@@ -31,24 +31,19 @@
 }
 .section-one h2, .section-four h2{
     font-family: Fraunces, 'sans-serif';
-    color: var(--clr-desaturated-blue);
     font-size: 2rem;
     line-height: 1.2;
-    font-weight: var(--fw-900);
 }
 .section-one p, .section-four p{
     font-family: Barlow, 'sans-serif';
-    font-size: var(--fs-900);
     max-width: 33ch;
     color: var(--clr-dark-graysish-blue);
-    font-weight: var(--fw-600);
 }
 .section-one a,.section-four a{
     text-decoration: none;
     font-family: Fraunces, 'sans-serif';
     color: var(--clr-desaturated-blue);
     font-size: 1.1rem;
-    font-weight: var(--fw-900);
     position: relative;
     cursor: pointer;
 }
