@@ -3,6 +3,7 @@ import img1 from '../assets/images/desktop/image-gallery-milkbottles.jpg'
 import img2 from '../assets/images/desktop/image-gallery-orange.jpg'
 import img3 from '../assets/images/desktop/image-gallery-cone.jpg'
 import img4 from '../assets/images/desktop/image-gallery-sugarcubes.jpg'
+import '../Styles/FooterImg.css'
 
 const FooterImg = () => {
   return (

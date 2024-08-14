@@ -1,7 +1,8 @@
 .images{
     display: flex;
     flex-direction: row;
-    width: 100px;
+    width: 400px;
+    padding: 5%;
     align-items: center;
     
 }
