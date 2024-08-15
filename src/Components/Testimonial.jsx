@@ -22,7 +22,7 @@ const Testimonial = () => {
           <div>
             <img className="pic" src={imageThomas} alt="Thomas S." />
             <p className="text">
-              Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+              Sunnyside enthusiasm coupled with their basic interest in our brand’s success made it a satisfying and enjoyable experience.
             </p>
             <p className="ntext">Thomas S.</p>
             <p className="btext">Chief Operating Officer</p>
@@ -34,7 +34,7 @@ const Testimonial = () => {
               Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
             </p>
             <p className="ntext">Jennie F.</p>
-            <p className="btext">Business Owner</p>
+            <p className="btext">A Business Owner</p>
           </div>
         </div>
       </section>
