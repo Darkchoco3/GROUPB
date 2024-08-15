@@ -13,7 +13,7 @@ const Testimonial = () => {
           <div>
             <img className="pic" src={imageEmily} alt="Emily R." />
             <p className="text">
-              We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+              We put our trust in Sunnyside and they Delivered, making sure our needs were met and deadlines were always hit.
             </p>
             <p className="ntext">Emily R.</p>
             <p className="btext">Marketing Director</p>
