@@ -57,7 +57,7 @@ h3{
 
   
   /* Styles for mobile devices */
-@media (max-width: 320px) {
+@media (max-width: 620px) {
     .main2 {
       padding: 10px; /* Adjust padding as needed for mobile */
       text-align: center; /* Center-align text for better mobile display */
@@ -65,10 +65,10 @@ h3{
   
     .general {
       display: flex;
-      flex-direction: row; /* Arrange items in a row */
+      flex-direction: column; /* Arrange items in a row */
       flex-wrap: wrap; /* Allow items to wrap if needed */
       justify-content: center; /* Center-align items horizontally */
-      gap: 10px; /* Add space between items */
+       /* Add space between items */
     }
   
     .general > div {
