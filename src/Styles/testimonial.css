@@ -55,6 +55,45 @@ h3{
 }
 
 
+  
+  /* Styles for mobile devices */
+@media (max-width: 320px) {
+    .main2 {
+      padding: 10px; /* Adjust padding as needed for mobile */
+      text-align: center; /* Center-align text for better mobile display */
+    }
+  
+    .general {
+      display: flex;
+      flex-direction: row; /* Arrange items in a row */
+      flex-wrap: wrap; /* Allow items to wrap if needed */
+      justify-content: center; /* Center-align items horizontally */
+      gap: 10px; /* Add space between items */
+    }
+  
+    .general > div {
+      width: 100%; /* Make each testimonial take full width */
+      text-align: center; /* Center-align text within each testimonial */
+    }
+  
+    .pic {
+      width: 60px; /* Adjust size of the image for mobile */
+      height: 60px; /* Adjust size of the image for mobile */
+      margin: 0 auto; /* Center the image */
+    }
+  
+    .text {
+      font-size: 12px; /* Adjust font size for better readability on mobile */
+      margin: 10px 0; /* Add vertical margin for spacing */
+    }
+  
+    .ntext, .btext {
+      font-size: 10px; /* Adjust font size for names and titles */
+    }
+  }
+  
+  
+
 
  
 
